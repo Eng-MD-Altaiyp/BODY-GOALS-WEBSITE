@@ -4,7 +4,7 @@
 
 $fnameer=$unameer=$emailer=$phoneer=$passworder=$conpassworder="";
 $all="";
-include '../con.php';
+include '../connaction.php';
 mysqli_set_charset($connect,'utf8');
 
 if(isset($_POST['submit']))

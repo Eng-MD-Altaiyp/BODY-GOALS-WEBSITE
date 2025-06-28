@@ -1,6 +1,6 @@
 <?php
 
-include '../con.php';
+include '../connaction.php';
 
 $unameer=$passworder="";
 if(isset($_POST['submit']))
